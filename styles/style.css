@@ -42,7 +42,7 @@ a {
 }
 
 .card {
-    max-width: 100%;
+    max-width: 100%; 
     background-color: white;
     display: flex;
     flex-flow: row wrap;

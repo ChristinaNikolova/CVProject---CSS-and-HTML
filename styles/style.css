@@ -1,0 +1,54 @@
+@import "header.css";
+@import "home.css";
+@import "education.css";
+@import "work.css";
+@import "portfolio.css";
+@import "certificate.css";
+@import "resume.css";
+@import "footer.css";
+
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cardo&display=swap);
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #F1F1F1;
+    max-width: 58%;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.site-header-nav-li {
+    margin: 0px;
+}

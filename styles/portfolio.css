@@ -1,0 +1,57 @@
+.site-portfolio {
+    flex: 1 1 100%;
+    margin-bottom: 1px;
+    background-color: #EAAA02
+}
+
+.site-portfolio-content-main-title {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    text-shadow: 1px 1px silver;
+    margin-bottom: 0px;
+    background-image: radial-gradient(circle, rgba(234, 170, 2, 1) 5%, rgba(255, 255, 255, 1) 95%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.site-portfolio-content-main-title:hover {
+    background-size: 100% 88%;
+}
+
+.site-portfolio-content-second-title {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.site-portfolio-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.site-portfolio-gallery-li {
+    flex: 0 1 30%;
+    margin: 10px;
+    border: 2px solid silver;
+    border-radius: 2px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.50);
+    padding: 10px;
+    background-image: linear-gradient(0deg, rgba(234, 170, 2, 1) 0%, rgba(255, 255, 255, 1) 46%);
+    display: flex;
+}
+
+.site-portfolio-gallery-li>img {
+    max-width: 100%;
+    align-self: center;
+}
+
+.site-portfolio-gallery-li:hover {
+    transition: transform 0.4s ease-in;
+    transform: scale(1.2);
+}

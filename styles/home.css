@@ -1,0 +1,151 @@
+/* main */
+
+.site-main {
+    flex: 1 1 100%;
+    margin-bottom: 1px;
+}
+
+/* first section */
+
+.main-short-resume-article {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+
+.main-short-resume-article-image-container {
+    width: 80%;
+    flex: 1 1 30%;
+    margin-right: 30px;
+}
+
+.main-image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.main-short-resume-article-content-container {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-short-resume-article-main-title {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Cardo', serif;
+    text-shadow: 2px 2px silver
+}
+
+.main-short-resume-article-second-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: darkblue;
+    text-transform: uppercase;
+    text-shadow: 2px 2px silver
+}
+
+.main-short-resume-article-main-first-paragraph,
+.main-short-resume-article-main-second-paragraph {
+    margin: 5px 10px 5px 0px;
+    font-size: 14px;
+}
+
+/* 
+.main-short-resume-article-small-gallery-list {
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.main-short-resume-article-small-gallery-li {
+    flex: 1 1 40%;
+    margin: 10px;
+    border: 2px solid silver;
+    border-radius: 2px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.50);
+    padding: 10px;
+    background-color: white;
+    display: flex;
+}
+
+.main-short-resume-article-small-gallery-li>img {
+    max-width: 100%;
+} */
+
+/* second section */
+.main-personal-info-contacts-title,
+.main-personal-info-skills-title {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #b5b4b5, #c4c3c4, #d3d2d2, #e3e1e2, #f2f1f1);
+    border-image-slice: 1;
+    color: white;
+}
+
+.main-personal-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-personal-info-contacts {
+    flex: 0 1 65%;
+    background-color: #1ABC9C;
+    padding-bottom: 5px;
+}
+
+.main-personal-info-skills {
+    flex: 1 1 20%;
+    background-color: #3498DB;
+}
+
+.main-personal-info-contacts-content-table {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.main-personal-info-contacts-content-table-head-row {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 40%;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.main-personal-info-contacts-content-table-body-row {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 50%;
+    color: white;
+}
+
+.main-personal-info-skills-list {
+    color: white;
+    margin-left: 5px;
+}
+
+.main-personal-info-skills-list>i {
+    margin-left: 5px;
+}
+
+.main-personal-info-skills-list>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-personal-info-contacts-content-table:hover,
+.main-personal-info-skills:hover {
+    opacity: 0.8;
+}

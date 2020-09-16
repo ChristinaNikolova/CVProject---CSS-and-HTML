@@ -1,0 +1,130 @@
+/* footer */
+
+.site-footer {
+    background-color: #4F4F4F;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 100%;
+}
+
+.site-footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-download-cv-title,
+.footer-social-media-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 10px;
+    border-left: 2px solid transparent;
+    border-image: linear-gradient(to right, #b5b4b5, #c4c3c4, #d3d2d2, #e3e1e2, #f2f1f1);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+
+.footer-social-media-title {
+    padding-left: 19px;
+    margin-left: 31px;
+}
+
+
+/* footer-download cv */
+
+.footer-download-cv {
+    flex: 1 1 60%;
+}
+
+.footer-download-cv-english,
+.footer-download-cv-bulgarian,
+.footer-download-cv-german,
+.footer-download-cv-all {
+    color: white;
+    background-color: #7f7f7f;
+    cursor: pointer;
+    outline: none;
+    border-radius: 1px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    padding: 8px 12px;
+    margin: 5px;
+    width: 6.5rem;
+}
+
+.footer-buttons {
+    margin-left: 10px;
+}
+
+.footer-download-cv-english:hover,
+.footer-download-cv-bulgarian:hover,
+.footer-download-cv-german:hover,
+.footer-download-cv-all:hover {
+    background-color: #E74C3C;
+    border-color: #E74C3C;
+    text-decoration: underline;
+}
+
+.footer-download-cv-message {
+    font-size: 13px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.fas.fa-exclamation {
+    margin-right: 5px;
+    color: #E74C3C;
+}
+
+/* footer-social media */
+
+.footer-social-media {
+    flex: 1 1 35%;
+}
+
+.footer-social-media-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.footer-social-media-li>a {
+    border: 17px solid #7f7f7f;
+    background-color: #7f7f7f;
+    border-radius: 50%;
+    position: relative;
+    margin: 5px;
+    width: 86%;
+    display: flex;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.footer-social-media-li>a:hover {
+    border-color: #E74C3C;
+    background-color: #E74C3C;
+}
+
+.footer-social-media-li>a>i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.site-footer-message {
+    font-family: 'Cardo', serif;
+    color: white;
+    font-size: 13px;
+    margin: 0px 10px 10px 516px;
+}
+
+.site-footer-message>a {
+    color: white;
+}
+
+.site-footer-message>a:hover {
+    color: #EAAA02;
+}

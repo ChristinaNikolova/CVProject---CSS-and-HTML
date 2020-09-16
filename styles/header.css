@@ -1,0 +1,73 @@
+/* header */
+
+.site-header {
+    flex: 1 1 100%;
+    overflow: hidden;
+}
+
+.site-header-nav-list {
+    display: flex;
+}
+
+.site-header-nav-li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid;
+    flex: 1 1 auto;
+    margin: 2px;
+    width: 8rem;
+    height: 5rem;
+}
+
+.site-header-nav-li>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.site-header-nav-li>a>i {
+    font-size: 20px;
+    color: white;
+}
+
+.site-header-nav-li.about {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+.site-header-nav-li.resume {
+    background-color: #3398D9;
+    border-color: #3398D9;
+}
+
+.site-header-nav-li.experience {
+    background-color: #9B5AB6;
+    border-color: #9B5AB6;
+}
+
+.site-header-nav-li.graduation {
+    background-color: #FF7F0A;
+    border-color: #FF7F0A;
+}
+
+.site-header-nav-li.achievement {
+    background-color: #FF4B3A;
+    border-color: #FF4B3A;
+}
+
+.site-header-nav-li.contacts {
+    background-color: #EAAA02;
+    border-color: #EAAA02;
+}
+
+.site-header-nav-li.about:hover,
+.site-header-nav-li.resume:hover,
+.site-header-nav-li.experience:hover,
+.site-header-nav-li.graduation:hover,
+.site-header-nav-li.achievement:hover,
+.site-header-nav-li.contacts:hover {
+    opacity: 0.7;
+}

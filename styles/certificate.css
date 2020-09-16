@@ -1,0 +1,276 @@
+.site-certificates {
+    flex: 1 1 100%;
+    margin-bottom: 1px;
+    background-color: #E74C3C;
+}
+
+.site-certificates-vertical-timeline {
+    background-color: white;
+}
+
+.site-certificates-content-main-title {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    text-shadow: 1px 1px silver;
+    margin-bottom: 0px;
+    background-image: radial-gradient(circle, rgba(231, 76, 60, 1) 5%, rgba(255, 255, 255, 1) 95%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.site-certificates-content-main-title:hover {
+    background-size: 100% 88%;
+}
+
+.site-certificates-content-second-title {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.site-certificates-vertical-timeline>article {
+    margin: 8px 0px;
+}
+
+.site-certificates-vertical-timeline-hub,
+.site-certificates-vertical-timeline-rotex,
+.site-certificates-vertical-timeline-basic-safety,
+.site-certificates-vertical-timeline-cargo-safety,
+.site-certificates-vertical-timeline-crowd-management,
+.site-certificates-vertical-timeline-crisis-management,
+.site-certificates-vertical-timeline-safety-training,
+.site-certificates-vertical-timeline-marine-environmental-awareness,
+.site-certificates-vertical-timeline-marine-security-duties {
+    border: 2px solid silver;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    width: 40%;
+    padding: 10px;
+    background-color: #EFEFEF;
+}
+
+.fas.fa-award {
+    color: white;
+}
+
+.certificates-info>li>.fas.fa-check {
+    color: #E74C3C;
+}
+
+.site-certificates-vertical-timeline>article>h4 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px silver
+}
+
+.site-certificates-vertical-timeline>article>h6 {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.certificates-site {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #E74C3C;
+}
+
+.certificates-site:hover {
+    opacity: 0.8;
+}
+
+.certificates-city,
+.date {
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.certificates-info {
+    border-top: 1px solid black;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.site-certificates-vertical-timeline-wrapper {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    height: 450vh;
+    background-color: white
+}
+
+.site-certificates-vertical-timeline-wrapper:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    width: 3px;
+    height: 90%;
+    background: radial-gradient(circle, rgba(204, 209, 217, 1) 48%, rgba(255, 255, 255, 1) 100%);
+    z-index: 1
+}
+
+.site-certificates-vertical-timeline-hub {
+    position: absolute;
+    left: 5%;
+}
+
+.site-certificates-vertical-timeline-rotex {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+}
+
+.site-certificates-vertical-timeline-basic-safety {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+}
+
+.site-certificates-vertical-timeline-cargo-safety {
+    position: absolute;
+    right: 5%;
+    top: 42%;
+}
+
+.site-certificates-vertical-timeline-crowd-management {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+
+.site-certificates-vertical-timeline-crisis-management {
+    position: absolute;
+    right: 5%;
+    top: 58%;
+}
+
+.site-certificates-vertical-timeline-safety-training {
+    position: absolute;
+    left: 5%;
+    top: 66%;
+}
+
+.site-certificates-vertical-timeline-marine-environmental-awareness {
+    position: absolute;
+    right: 5%;
+    top: 76%;
+}
+
+.site-certificates-vertical-timeline-marine-security-duties {
+    position: absolute;
+    left: 5%;
+    top: 84%;
+}
+
+.timeline-certificates-marker-hub,
+.timeline-certificates-marker-rotex,
+.timeline-certificates-marker-basic-safety,
+.timeline-certificates-marker-cargo-safety,
+.timeline-certificates-marker-crowd-management,
+.timeline-certificates-marker-crisis-management,
+.timeline-certificates-marker-safety-training,
+.timeline-certificates-marker-marine-environmental-awareness,
+.timeline-certificates-marker-marine-security-duties {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid #E74C3C;
+    background: #E74C3C;
+    z-index: 9999;
+    position: absolute;
+    color: white;
+}
+
+.fas.fa-award {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-certificates-marker-hub {
+    right: 46.2%;
+    top: 8%;
+}
+
+.timeline-certificates-marker-rotex {
+    right: 46.2%;
+    top: 24%;
+}
+
+.timeline-certificates-marker-basic-safety {
+    right: 46.2%;
+    top: 40%;
+}
+
+.timeline-certificates-marker-cargo-safety {
+    right: 46.2%;
+    top: 49%;
+}
+
+.timeline-certificates-marker-crowd-management {
+    right: 46.2%;
+    top: 56%;
+}
+
+.timeline-certificates-marker-crisis-management {
+    right: 46.2%;
+    top: 65%;
+}
+
+.timeline-certificates-marker-safety-training {
+    right: 46.2%;
+    top: 74.5%;
+}
+
+.timeline-certificates-marker-marine-environmental-awareness {
+    right: 46.2%;
+    top: 83%;
+}
+
+.timeline-certificates-marker-marine-security-duties {
+    right: 46.2%;
+    top: 91%;
+}
+
+.site-certificates-vertical-timeline-hub:hover,
+.site-certificates-vertical-timeline-rotex:hover,
+.site-certificates-vertical-timeline-basic-safety:hover,
+.site-certificates-vertical-timeline-cargo-safety:hover,
+.site-certificates-vertical-timeline-crowd-management:hover,
+.site-certificates-vertical-timeline-crisis-management:hover,
+.site-certificates-vertical-timeline-safety-training:hover,
+.site-certificates-vertical-timeline-marine-environmental-awareness:hover,
+.site-certificates-vertical-timeline-marine-security-duties:hover {
+    transition: transform 0.4s ease-in;
+    transform: scale(1.2);
+}
+
+.certificates-logo-container {
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 60%;
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.certificates-logo-container>img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.35);
+}
+
+.site-certificates-main-title {
+    text-transform: uppercase;
+}

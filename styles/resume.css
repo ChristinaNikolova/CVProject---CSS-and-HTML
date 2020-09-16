@@ -1,0 +1,196 @@
+.site-resume {
+    flex: 1 1 100%;
+    margin-bottom: 1px;
+    background-color: #3498DB;
+    height: 125vh;
+}
+
+.site-resume-main-title {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    text-shadow: 1px 1px silver;
+    margin-bottom: 0px;
+    background-image: radial-gradient(circle, rgba(51, 152, 217, 1) 5%, rgba(255, 255, 255, 1) 95%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.site-resume-main-title:hover {
+    background-size: 100% 88%;
+}
+
+.site-resume-second-title {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* first Section */
+
+.site-resume-table-title,
+.site-resume-languages-title,
+.site-resume-press-title {
+    color: white;
+    font-weight: normal;
+    text-shadow: 1px 1px silver;
+    margin: 0px 120px 5px 10px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #b5b4b5, #c4c3c4, #d3d2d2, #e3e1e2, #f2f1f1);
+    border-image-slice: 1;
+}
+
+.site-resume-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 0px;
+}
+
+.site-resume-main-content {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.table-wrapper {
+    flex: 0 1 35%;
+    border: 3px solid transparent;
+    background-color: #E67E22;
+}
+
+.site-resume-main-content-text-container {
+    flex: 0 1 50%;
+    margin-left: 25px;
+}
+
+.site-resume-main-content-left-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.site-resume-main-content-text-paragraph {
+    margin: 5px 10px 5px 0px;
+    font-size: 14px;
+    color: white;
+}
+
+.site-resume-main-content-table {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.site-resume-main-content-table-head-row {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 40%;
+    align-items: baseline;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    font-weight: normal;
+}
+
+.site-resume-main-content-table-body-row {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 50%;
+    color: white;
+    font-weight: lighter;
+}
+
+.site-resume-languages {
+    flex: 0 1 35%;
+    border: 3px solid transparent;
+    background-color: #FF4B3A;
+}
+
+.site-resume-press {
+    flex: 0 1 35%;
+    border: 3px solid transparent;
+    background-color: #EAAA02;
+}
+
+.site-resume-press:hover,
+.site-resume-languages:hover,
+.table-wrapper:hover,
+site-resume-skills-job:hover,
+.site-resume-skills-organisational:hover,
+.site-resume-skills-communication:hover {
+    opacity: 0.9;
+}
+
+.site-resume-languages-li,
+.site-resume-press-li>a {
+    color: white;
+}
+
+.fas.fa-external-link-alt,
+.fas.fa-check,
+.far.fa-comments,
+.fas.fa-tasks,
+.fas.fa-glasses {
+    color: white;
+    margin-right: 5px;
+}
+
+/* second section */
+
+.site-resume-skills,
+.site-resume-skills-wrapper {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.site-resume-skills {
+    color: white;
+    font-size: 14px;
+}
+
+.site-resume-skills-communication,
+.site-resume-skills-organisational,
+.site-resume-skills-job {
+    flex: 0 1 30%;
+}
+
+.site-resume-skills-job-list,
+.site-resume-skills-organisational-list,
+.site-resume-skills-communication-list {
+    margin-left: 10px;
+}
+
+.site-resume-skills-job,
+.site-resume-skills-organisational,
+.site-resume-skills-communication {
+    border: 3px solid #E74C3C;
+    background-color: #E74C3C;
+}
+
+.site-resume-skills-title {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #b5b4b5, #c4c3c4, #d3d2d2, #e3e1e2, #f2f1f1);
+    border-image-slice: 1;
+}
+
+.site-resume-skills-wrapper h4 {
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #b5b4b5, #c4c3c4, #d3d2d2, #e3e1e2, #f2f1f1);
+    border-image-slice: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.site-resume li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+}

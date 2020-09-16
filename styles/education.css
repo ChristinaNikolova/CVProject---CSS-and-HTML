@@ -1,0 +1,197 @@
+/* education */
+
+.site-education {
+    flex: 1 1 100%;
+    margin-bottom: 1px;
+    background-color: #FF7F0A;
+}
+
+.site-education-vertical-timeline {
+    background-color: white;
+}
+
+.site-education-content-main-title {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    text-shadow: 1px 1px silver;
+    margin-bottom: 0px;
+    background-image: radial-gradient(circle, rgba(255, 127, 10, 1) 5%, rgba(255, 255, 255, 1) 95%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.site-education-content-main-title:hover {
+    background-size: 100% 88%;
+}
+
+.site-education-content-second-title {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.site-education-vertical-timeline>article {
+    margin: 8px 0px;
+}
+
+.site-education-vertical-timeline-school-university-ma,
+.site-education-vertical-timeline-school-university-ba,
+.site-education-vertical-timeline-school {
+    border: 2px solid silver;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    width: 40%;
+    padding: 10px;
+    background-color: #EFEFEF;
+}
+
+.fas.fa-plug {
+    color: #FF7F0A;
+}
+
+.site-education-vertical-timeline>article>h3 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px silver
+}
+
+.site-education-vertical-timeline>article>h5 {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.education-site {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #FF7F0A;
+}
+
+.education-site:hover {
+    opacity: 0.8;
+}
+
+.education-city,
+.date {
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.site-education-vertical-timeline-school-university-ma:hover,
+.site-education-vertical-timeline-school-university-ba:hover,
+.site-education-vertical-timeline-school:hover {
+    transition: transform 0.4s ease-in;
+    transform: scale(1.2);
+}
+
+.education-info {
+    border-top: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.site-education-vertical-timeline-wrapper {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    height: 240vh;
+    background-color: white
+}
+
+.site-education-vertical-timeline-wrapper:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    width: 3px;
+    height: 90%;
+    background: radial-gradient(circle, rgba(204, 209, 217, 1) 48%, rgba(255, 255, 255, 1) 100%);
+    z-index: 1
+}
+
+.site-education-vertical-timeline-school-university-ma {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+}
+
+.site-education-vertical-timeline-school-university-ba {
+    position: absolute;
+    right: 5%;
+    top: 32%;
+}
+
+.site-education-vertical-timeline-school {
+    position: absolute;
+    left: 5%;
+    top: 65%;
+}
+
+.timeline-marker-ma,
+.timeline-marker-ba,
+.timeline-marker-school {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid #FF7F0A;
+    background: #FF7F0A;
+    z-index: 9999;
+    position: absolute;
+    color: white;
+}
+
+.fas.fa-school,
+.fas.fa-university,
+.fas.fa-user-graduate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-marker-ma {
+    right: 46.2%;
+    top: 12%;
+}
+
+.timeline-marker-ba {
+    right: 46.2%;
+    top: 40%;
+}
+
+.timeline-marker-school {
+    right: 46.2%;
+    top: 72%;
+}
+
+.timeline-marker-school:hover,
+.timeline-marker-ba:hover,
+.timeline-marker-ma:hover {
+    background-color: #FF7F0A;
+    border: #FF7F0A;
+}
+
+.education-logo-container {
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 60%;
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.education-logo-container>img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.35);
+}

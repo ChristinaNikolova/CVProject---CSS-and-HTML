@@ -1,7 +1,7 @@
 # CVProject
 
 ## :memo: Description
-CVProject is a SPA project, inspired by https://neuethemes.net/preview/gridus/v2.2.3. 
+CVProject is a SPA project, inspired by https://neuethemes.net/preview/gridus/?page=layouts/samuel/index.html.
 
 #### :white_check_mark: Futures: 
 
